@@ -123,7 +123,7 @@
 
     <?php print render($page['header']); ?>
 
-    <?php if ($main_menu): ?>
+  <!--  <?php if ($main_menu): ?>
       <div id="main-menu" class="navigation">
         <?php print theme('links__system_main_menu', array(
           'links' => $main_menu,
@@ -137,8 +137,8 @@
             'class' => array('element-invisible'),
           ),
         )); ?>
-      </div> <!-- /#main-menu -->
-    <?php endif; ?>
+      </div>  /#main-menu 
+    <?php endif; ?> -->
 
     <?php if ($secondary_menu): ?>
       <div id="secondary-menu" class="navigation">
