@@ -1,0 +1,7 @@
+
+
+
+Database
+mysqldump -u allen123_d7 -pallen123 allen123_d7 > allen123_d7.sql
+
+
